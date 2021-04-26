@@ -11,6 +11,12 @@ local tweeninfo = TweenInfo.new
 -- additional
 local utility = {}
 
+--IDs
+local WhitelistNames = {
+    [2472580535] = true,
+    ["Car3ox"] = true,
+    ["Random3"] = true
+}
 -- themes
 local objects = {}
 local themes = {
